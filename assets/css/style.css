@@ -430,8 +430,8 @@ body.short-header header {
   top: -40px;
   left: 50%;
   margin-left: -40px;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
 }
 .bio .user-avatar {
   transition-delay: 0.5s;
@@ -1296,3 +1296,4 @@ h3.tag-header {
   line-height: 10pt;
   padding: 7px;
 }
+L
