@@ -439,8 +439,8 @@ body.short-header header {
   display: block;
   position: relative;
   text-align: center;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   background-color: #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -448,9 +448,9 @@ body.short-header header {
 }
 .bio .user-avatar img {
   display: block;
-  width: 80px;
-  height: 80px;
-  border: 5px solid #ffffff;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
