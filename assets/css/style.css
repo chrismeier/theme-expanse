@@ -427,9 +427,9 @@ body.short-header header {
 .bio {
   display: block;
   position: absolute;
-  top: -40px;
+  top: -75px;
   left: 50%;
-  margin-left: 0px;
+  margin-left: -75px;
   width: 150px;
   height: 150px;
 }
