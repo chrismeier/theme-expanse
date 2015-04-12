@@ -427,7 +427,7 @@ body.short-header header {
 .bio {
   display: block;
   position: absolute;
-  top: -40px;
+  top: -75px;
   left: 50%;
   margin-left: -75px;
   width: 150px;
@@ -438,7 +438,6 @@ body.short-header header {
   -webkit-transition-delay: 0.5s;
   display: block;
   position: relative;
-  top: -40px;
   text-align: center;
   width: 150px;
   height: 150px;
@@ -451,7 +450,6 @@ body.short-header header {
   display: block;
   width: 150px;
   height: 150px;
-  top: -40px;
   border: 3px solid #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
