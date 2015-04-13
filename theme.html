@@ -45,11 +45,12 @@
       <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" />
       <div class="container wide">
         <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
-        <ul class="cover-nav">              <!-- Categories -->
-              <li><a href="/tag/design" class="{{ set_active('/tag/design') }}">Design</a></li>
-              <li><a href="/tag/web" class="{{ set_active('/tag/web') }}">Web</a></li>
-              <li><a href="/tag/ios" class="{{ set_active('/tag/ios') }}">iOS</a></li>
-              <li><a href="/tag/android" class="{{ set_active('/tag/android') }}">Android</a></li>
+        <ul class="cover-nav"> 
+              <!-- Categories -->
+              <li><a href="/tag/SF" class="{{ set_active('/tag/sf') }}">San Francisco</a></li>
+              <li><a href="/tag/Southeast\ Asia" class="{{ set_active('/tag/Southeast \Asia') }}">Southeast Asia</a></li>
+              <li><a href="/tag/coding" class="{{ set_active('/tag/coding') }}">Coding</a></li>
+              <li><a href="/tag/photography" class="{{ set_active('/tag/photography') }}">Photography</a></li>
               <!-- END Categories -->
 
         {% if pages %}
@@ -120,12 +121,6 @@
       </div>
 
       <div class="post">
-      <div>
-        <ul>
-          <li>test</li>
-          <li>test2</li>
-        </ul>
-      </div>
       {% if is_home or is_tag %}
 
         {% if is_tag %}
