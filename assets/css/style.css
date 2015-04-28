@@ -7,6 +7,38 @@
     More info at: http://lesselements.com
     MODIFIED BY: Brandon Brown
   ---------------------------------------------------*/
+
+/* Lightbox Insert Stuff*/
+.lightbox { 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.lightbox .lightboxbg {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+.lightbox .lightboximg {
+  max-height: 95%;
+  max-width: 95%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+div.hidden {
+  display: none;
+}
+/* End Lightbox Stuff */
+
+
+
 * html .clearfix {
   zoom: 1;
 }
