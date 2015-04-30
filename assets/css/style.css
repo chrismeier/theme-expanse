@@ -27,6 +27,7 @@
   max-height: 95%;
   max-width: 95%;
   display: block;
+  padding-top: 20px;
   margin: auto;
   /*margin: 3%;*/
   position: center;
