@@ -32,9 +32,11 @@
     <script type="text/javascript">
       //Image lightbox on click
         $(document).ready(
-
+          
+          $('.post-content > div > div > img').attr("onclick", "LightboxOn()");
+          
           function LightboxOn(){
-          $('.post-content > div > div > img').attr("onclick", "LightboxOn");
+          
 
           $('.post-content > div > div > img').click(function() {         
             $('.lightbox').removeClass("hidden");
