@@ -29,24 +29,6 @@
     })();
     </script>
     {% endif %}
-    <script type="text/javascript">
-
-          $('.post-content > div > div > img').click(function() {         
-            $('.lightbox').removeClass("hidden");
-            var lbimg = $(this).attr("src");
-            var scrn = $('.lightbox');
-            //Vertical centering of image
-            $('.lightboximg').attr("src",lbimg).css({
-              'margin-left' : -$('.lightboximg').outerWidth()/2,
-              'margin-top' : -$('.lightboximg').outerHeight()/2  
-            });       
-          })
-              
-          //Hide lightbox on click
-          $('.lightbox').click(function() {
-            $('.lightbox').addClass("hidden");
-          })
-      </script>
   </head>
   <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
 
