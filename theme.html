@@ -30,13 +30,6 @@
     </script>
     {% endif %}
     <script type="text/javascript">
-      //Image lightbox on click
-        $(document).ready(
-          
-          
-          
-          function LightboxOn(){
-          $('.post-content > div > div > img').attr("onclick", "LightboxOn()");
 
           $('.post-content > div > div > img').click(function() {         
             $('.lightbox').removeClass("hidden");
@@ -53,8 +46,6 @@
           $('.lightbox').click(function() {
             $('.lightbox').addClass("hidden");
           })
-              
-        })
       </script>
   </head>
   <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
