@@ -28,12 +28,11 @@
   max-width: 95%;
   display: block;
   /*margin: auto;*/
-  margin-right: -50%;
-  margin-bottom: -50%;
+  margin: 10%;
   position: absolute;
   height: 100%;
-  left: 50%;
-  top: 50%;
+  /*left: 50%;
+  top: 50%;*/
 }
 div.hidden {
   display: none;
