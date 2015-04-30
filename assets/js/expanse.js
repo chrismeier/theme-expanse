@@ -1,4 +1,22 @@
 $(document).ready(function(){
+  
+
+  $('.post-content > div > div > img').click(function() {         
+    $('.lightbox').removeClass("hidden");
+    var lbimg = $(this).attr("src");
+    var scrn = $('.lightbox');
+    //Vertical centering of image
+    $('.lightboximg').attr("src",lbimg).css({
+      'margin-left' : -$('.lightboximg').outerWidth()/2,
+      'margin-top' : -$('.lightboximg').outerHeight()/2  
+    });       
+  })
+      
+  //Hide lightbox on click
+  $('.lightbox').click(function() {
+    $('.lightbox').addClass("hidden");
+  })
+
     
   // establish vars
   var $window = $(this);
