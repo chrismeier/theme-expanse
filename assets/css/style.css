@@ -27,9 +27,9 @@
   max-height: 95%;
   max-width: 95%;
   display: block;
-  /*margin: auto;*/
-  margin: 10%;
-  position: absolute;
+  margin: auto;
+  /*margin: 3%;*/
+  position: center;
   height: 100%;
   /*left: 50%;
   top: 50%;*/
