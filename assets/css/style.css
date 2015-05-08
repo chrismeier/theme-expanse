@@ -17,11 +17,12 @@
   height: 100%;
 }
 .lightbox .lightboxbg {
-  background-color: #FFF;
+  background-color: #000;
   position: fixed;
   width: 100%;
   height: 100%;
   opacity: 0.93;
+  border: 7px solid #FFF;
 }
 .lightbox .lightboximg {
   max-height: 95%;
