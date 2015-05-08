@@ -28,8 +28,9 @@
   max-width: 95%;
   border: 7px solid #FFF;
   display: block;
-  padding-top: 20px;
+
   margin: auto;
+  margin-top: 20px;
   /*margin: 3%;*/
   position: center;
   height: 100%;
